@@ -37,16 +37,16 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 12);
+            dataGridView1.Location = new Point(14, 12);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(776, 252);
+            dataGridView1.Size = new Size(776, 297);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.CellValueChanged += dataGridView1_CellValueChanged;
             // 
             // AddUsersButton
             // 
-            AddUsersButton.Location = new Point(14, 278);
+            AddUsersButton.Location = new Point(14, 315);
             AddUsersButton.Name = "AddUsersButton";
             AddUsersButton.Size = new Size(774, 61);
             AddUsersButton.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // RefreshButton
             // 
-            RefreshButton.Location = new Point(12, 345);
+            RefreshButton.Location = new Point(12, 382);
             RefreshButton.Name = "RefreshButton";
             RefreshButton.Size = new Size(774, 61);
             RefreshButton.TabIndex = 2;

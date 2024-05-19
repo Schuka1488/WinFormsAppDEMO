@@ -34,33 +34,13 @@ namespace WinFormsAppDEMO
 
             // Создание объекта для подключения к базе данных
             connection = new MySqlConnection(connectionString);
-            try
-            {
-                // Попытка открыть соединение с базой данных
-                connection.Open();
-            }
-            catch (MySqlException ex)
-            {
-                // Обработка исключения при ошибке подключения к базе данных
-                throw new Exception("Error connecting to the database: " + ex.Message);
-            }
+            connection.Open();
         }
 
         // Метод для получения объекта подключения к базе данных
         public MySqlConnection GetConnection()
         {
             return connection;
-        }
-
-        // Метод для закрытия соединения с базой данных
-        public void CloseConnection()
-        {
-            // Проверка, что соединение с базой данных было открыто
-            if (connection != null)
-            {
-                // Закрытие соединения с базой данных
-                connection.Close();
-            }
         }
     }
 }

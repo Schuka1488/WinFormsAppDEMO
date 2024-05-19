@@ -16,10 +16,12 @@ namespace WinFormsAppDEMO
         {
             InitializeComponent();
 
+            // Проверяем, является ли тип пользователя не администратором
             if (userType != "Administrator")
             {
-                UsersButton.Visible = false;
-                ShiftsButton.Visible = false;
+                // Если тип пользователя не является администратором, скрываем кнопки для доступа к пользователям и сменам
+                UsersButton.Visible = false; // Скрываем кнопку доступа к пользователям
+                ShiftsButton.Visible = false; // Скрываем кнопку доступа к сменам
             }
         }
 

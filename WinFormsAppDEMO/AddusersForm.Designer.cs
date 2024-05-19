@@ -41,7 +41,7 @@
             // 
             // AddTextBoxLogin
             // 
-            AddTextBoxLogin.Location = new Point(12, 21);
+            AddTextBoxLogin.Location = new Point(12, 24);
             AddTextBoxLogin.Name = "AddTextBoxLogin";
             AddTextBoxLogin.Size = new Size(121, 23);
             AddTextBoxLogin.TabIndex = 0;
@@ -72,7 +72,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(154, 24);
+            label1.Location = new Point(12, 6);
             label1.Name = "label1";
             label1.Size = new Size(41, 15);
             label1.TabIndex = 4;
@@ -81,7 +81,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(154, 97);
+            label2.Location = new Point(12, 71);
             label2.Name = "label2";
             label2.Size = new Size(49, 15);
             label2.TabIndex = 5;
@@ -90,7 +90,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(154, 162);
+            label3.Location = new Point(12, 136);
             label3.Name = "label3";
             label3.Size = new Size(34, 15);
             label3.TabIndex = 6;
@@ -99,7 +99,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(154, 233);
+            label4.Location = new Point(12, 207);
             label4.Name = "label4";
             label4.Size = new Size(43, 15);
             label4.TabIndex = 7;
@@ -107,9 +107,9 @@
             // 
             // buttonAdd
             // 
-            buttonAdd.Location = new Point(25, 296);
+            buttonAdd.Location = new Point(12, 263);
             buttonAdd.Name = "buttonAdd";
-            buttonAdd.Size = new Size(108, 23);
+            buttonAdd.Size = new Size(121, 63);
             buttonAdd.TabIndex = 8;
             buttonAdd.Text = "Добавить";
             buttonAdd.UseVisualStyleBackColor = true;
@@ -119,7 +119,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(219, 353);
+            ClientSize = new Size(148, 353);
             Controls.Add(buttonAdd);
             Controls.Add(label4);
             Controls.Add(label3);

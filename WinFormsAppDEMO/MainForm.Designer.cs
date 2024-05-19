@@ -36,7 +36,7 @@
             // 
             // OrdersButton
             // 
-            OrdersButton.Location = new Point(12, 64);
+            OrdersButton.Location = new Point(8, 12);
             OrdersButton.Name = "OrdersButton";
             OrdersButton.Size = new Size(133, 86);
             OrdersButton.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // UsersButton
             // 
-            UsersButton.Location = new Point(151, 64);
+            UsersButton.Location = new Point(147, 12);
             UsersButton.Name = "UsersButton";
             UsersButton.Size = new Size(133, 86);
             UsersButton.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // ShiftsButton
             // 
-            ShiftsButton.Location = new Point(290, 64);
+            ShiftsButton.Location = new Point(286, 12);
             ShiftsButton.Name = "ShiftsButton";
             ShiftsButton.Size = new Size(133, 86);
             ShiftsButton.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // LogoutButton
             // 
-            LogoutButton.Location = new Point(429, 64);
+            LogoutButton.Location = new Point(425, 12);
             LogoutButton.Name = "LogoutButton";
             LogoutButton.Size = new Size(133, 86);
             LogoutButton.TabIndex = 3;
@@ -78,7 +78,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(714, 256);
+            ClientSize = new Size(569, 118);
             Controls.Add(LogoutButton);
             Controls.Add(ShiftsButton);
             Controls.Add(UsersButton);

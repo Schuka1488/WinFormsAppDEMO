@@ -56,30 +56,30 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 255);
+            dataGridView1.Location = new Point(12, 156);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(990, 330);
+            dataGridView1.Size = new Size(990, 429);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.CellValueChanged += dataGridView1_CellValueChanged;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(31, 124);
+            dateTimePicker1.Location = new Point(15, 99);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
             dateTimePicker1.TabIndex = 2;
             // 
             // TableNumberTextBox
             // 
-            TableNumberTextBox.Location = new Point(286, 130);
+            TableNumberTextBox.Location = new Point(270, 99);
             TableNumberTextBox.Name = "TableNumberTextBox";
             TableNumberTextBox.Size = new Size(100, 23);
             TableNumberTextBox.TabIndex = 3;
             // 
             // CustomerCountTextBox
             // 
-            CustomerCountTextBox.Location = new Point(429, 130);
+            CustomerCountTextBox.Location = new Point(413, 99);
             CustomerCountTextBox.Name = "CustomerCountTextBox";
             CustomerCountTextBox.Size = new Size(100, 23);
             CustomerCountTextBox.TabIndex = 4;
@@ -87,7 +87,7 @@
             // StatusComboBox
             // 
             StatusComboBox.FormattingEnabled = true;
-            StatusComboBox.Location = new Point(757, 130);
+            StatusComboBox.Location = new Point(741, 99);
             StatusComboBox.Name = "StatusComboBox";
             StatusComboBox.Size = new Size(121, 23);
             StatusComboBox.TabIndex = 6;
@@ -95,7 +95,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(64, 186);
+            label1.Location = new Point(15, 125);
             label1.Name = "label1";
             label1.Size = new Size(116, 15);
             label1.TabIndex = 7;
@@ -104,7 +104,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(286, 186);
+            label2.Location = new Point(270, 125);
             label2.Name = "label2";
             label2.Size = new Size(92, 15);
             label2.TabIndex = 8;
@@ -113,7 +113,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(429, 186);
+            label3.Location = new Point(413, 125);
             label3.Name = "label3";
             label3.Size = new Size(115, 15);
             label3.TabIndex = 9;
@@ -122,7 +122,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(585, 186);
+            label4.Location = new Point(569, 125);
             label4.Name = "label4";
             label4.Size = new Size(82, 15);
             label4.TabIndex = 10;
@@ -131,7 +131,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(757, 186);
+            label5.Location = new Point(741, 125);
             label5.Name = "label5";
             label5.Size = new Size(80, 15);
             label5.TabIndex = 11;
@@ -140,7 +140,7 @@
             // WaiterIDComboBox
             // 
             WaiterIDComboBox.FormattingEnabled = true;
-            WaiterIDComboBox.Location = new Point(585, 130);
+            WaiterIDComboBox.Location = new Point(569, 99);
             WaiterIDComboBox.Name = "WaiterIDComboBox";
             WaiterIDComboBox.Size = new Size(121, 23);
             WaiterIDComboBox.TabIndex = 12;

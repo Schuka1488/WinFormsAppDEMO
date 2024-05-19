@@ -41,9 +41,9 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(22, 202);
+            dataGridView1.Location = new Point(22, 118);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(817, 347);
+            dataGridView1.Size = new Size(817, 431);
             dataGridView1.TabIndex = 0;
             // 
             // AddShiftsButton
@@ -58,7 +58,7 @@
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(22, 111);
+            dateTimePicker1.Location = new Point(22, 86);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
             dateTimePicker1.TabIndex = 2;
@@ -66,7 +66,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(250, 115);
+            label1.Location = new Point(228, 92);
             label1.Name = "label1";
             label1.Size = new Size(72, 15);
             label1.TabIndex = 3;
@@ -75,7 +75,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(250, 162);
+            label2.Location = new Point(551, 94);
             label2.Name = "label2";
             label2.Size = new Size(102, 15);
             label2.TabIndex = 4;
@@ -83,10 +83,18 @@
             // 
             // DescriptionTextBox
             // 
-            DescriptionTextBox.Location = new Point(22, 158);
+            DescriptionTextBox.Location = new Point(329, 89);
             DescriptionTextBox.Name = "DescriptionTextBox";
             DescriptionTextBox.Size = new Size(200, 23);
             DescriptionTextBox.TabIndex = 5;
+            // 
+            // ShiftsButtonRefresh
+            // 
+            ShiftsButtonRefresh.Location = new Point(0, 0);
+            ShiftsButtonRefresh.Name = "ShiftsButtonRefresh";
+            ShiftsButtonRefresh.Size = new Size(75, 23);
+            ShiftsButtonRefresh.TabIndex = 0;
+            // 
             // ShiftsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
